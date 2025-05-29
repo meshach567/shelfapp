@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "shelfapp",
     "name": "shelfapp",
     "slug": "shelfapp",
     "version": "1.0.0",
@@ -23,7 +24,8 @@
       "edgeToEdgeEnabled": true
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
